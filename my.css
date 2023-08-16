@@ -1,0 +1,52 @@
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #b0b0b0;
+    opacity: 1; /* Firefox */
+    font-size: medium;
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #b0b0b0;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #b0b0b0;
+}
+
+/* стиль инпутов */
+
+.form-control { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    border-color: #202020;
+    border-width: 2px;
+    opacity: 1; /* Firefox */
+}
+
+/* стиль кнопки */
+.btn.btn-primary {
+    background-color: #202020;
+    border-color: #202020;
+    font-size: medium;
+}
+
+.btn.btn-primary:hover {
+    background-color: #0F62FE;
+    border-color:  #0F62FE;
+    
+}
+
+/* кегль пилса */
+
+.nav-pills {
+    font-size: small;
+}
+
+/* стиль активного пилса */
+.nav-pills {
+    /* общий фон background-color: #202020; */
+    padding: 8px;
+    --bs-nav-pills-link-active-color:#fff;
+    /* --bs-nav-pills-link-active-bg: #a0a0a0; */
+    border-style:solid;
+    border-width:1px;
+    border-radius: 8px;
+    border-color: #e0e0e0;
+}
